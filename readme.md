@@ -12,6 +12,7 @@ shadowsocks.json文件放在/etc目录下
 # SSH连接远程服务器
 
 ##远程连接
+
     #!/bin/bash
     ssh -o StrictHostKeyChecking=no root@144.202.41.67
 
@@ -20,7 +21,7 @@ shadowsocks.json文件放在/etc目录下
     scp /path/filename username@servername:/path/
     scp -r /path/local_dir username@servername:path/remote_dir
     
-###从服务器下载到本地
+##从服务器下载到本地
 
     scp username@servername:/path/filename /path/
     scp -r username@servername:/path/remote_dir /path/local_dir
