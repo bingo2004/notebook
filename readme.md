@@ -11,7 +11,8 @@ shadowsocks.json文件放在/etc目录下
 
 # SSH连接远程服务器
 
-###远程连接
+### 远程连接
+
     #!/bin/bash
     ssh -o StrictHostKeyChecking=no root@144.202.41.67
 
