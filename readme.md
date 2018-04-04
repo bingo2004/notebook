@@ -49,8 +49,10 @@ shadowsocks.json文件放在/etc目录下
     sudo vim /etc/privoxy/config
 
 找到 listen-address 确保有这行代码 listen-address 127.0.0.1:8118
+*如果失败，尝试去掉这一行，在办公室机器就是去掉这一行之后成功的
 
 找到 forward-socks5 确保有这行代码(没有自己加) forward-socks5 / 127.0.0.1:1080 .
+*注释掉这一行后，可以恢复非privoxy连接
 
 ###启动
 
