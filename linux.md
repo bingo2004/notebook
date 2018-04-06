@@ -1,3 +1,24 @@
+# linux 多个文件中查找字符串
+
+    find <directory> -type f -name "*.c" | xargs grep "<strings>"
+
+<directory>是你要找的文件夹；如果是当前文件夹可以省略
+
+-type f 意思是只找文件
+
+-name "*.c"  表示只找C语言写的代码，从而避免去查binary；也可以不写，表示找所有文件
+
+<strings>是你要找的某个字符串
+
+
+# fortune and fortune-zh
+
+每日一首诗
+
+    sudo apt-get install fortune(-zh)
+    sudo apt-get purge fortune(-zh)
+
+
 # vim 
 
 ## 批量缩进
