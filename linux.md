@@ -1,3 +1,31 @@
+# vim 
+
+## 批量缩进
+
+    :3,33>
+
+    3到33行缩进
+
+## 直接粘贴的方式会导致代码丢失和缩进错乱等情况:
+
+解决办法：
+vim进入paste模式，命令如下：
+
+    :set paste
+
+进入paste模式之后，再按i进入插入模式，进行复制、粘贴就很正常了。 
+
+命令模式下，输入
+
+    :set nopaste
+
+解除paste模式。
+
+# sendmail 的安装与配置
+
+https://blog.csdn.net/xin_yu_xin/article/details/45115723
+
+https://blog.csdn.net/xin_yu_xin/article/details/45115723
 
 # 后台任务和进程查看
 
