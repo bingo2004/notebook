@@ -44,52 +44,52 @@ set类是在python的sets模块中，现在使用的python2.3中，不需要导�
 		>>> a
 		set(['y', 'b', 'o'])
 
->>> 清除素有内容
-s.clear()
+    >>> 清除素有内容
+    s.clear()
 
->>> 两个集合的差集
-s1 = {32, 12, 34}
-s2 = {12, 43, 23}
->>> s1中存在，s2中不存在
-print(s1.difference(s2))
->>> {32, 34}
+    >>> 两个集合的差集
+    s1 = {32, 12, 34}
+    s2 = {12, 43, 23}
+    >>> s1中存在，s2中不存在
+    print(s1.difference(s2))
+    >>> {32, 34}
 
->>> 对称差集
-print(s1.symmetric_difference(s2))
->>> {32, 34, 43, 23}
->>> difference和symmetric_different会生成新一个结果，而different_update 和 symmetic_different_update会覆盖之前集合
+    >>> 对称差集
+    print(s1.symmetric_difference(s2))
+    >>> {32, 34, 43, 23}
+    >>> difference和symmetric_different会生成新一个结果，而different_update 和 symmetic_different_update会覆盖之前集合
 
->>> 移除元素 如果元素不存在，不会报错 remove 如果元素不存在，会报错
-s1.discard(32)
-print(s1)
->>> {34, 12}
+    >>> 移除元素 如果元素不存在，不会报错 remove 如果元素不存在，会报错
+    s1.discard(32)
+    print(s1)
+    >>> {34, 12}
 
->>> 集合pop随机移除某个元素并且获取那个参数,集合pop没有参数
-re2 = s2.pop()
-print(re2)
->>> 43
-s3 = {11, 22, 33}
-s4 = {44, 33, 22}
+    >>> 集合pop随机移除某个元素并且获取那个参数,集合pop没有参数
+    re2 = s2.pop()
+    print(re2)
+    >>> 43
+    s3 = {11, 22, 33}
+    s4 = {44, 33, 22}
 
->>> 交集
-print(s3.intersection(s4))
->>> {33, 22}
+    >>> 交集
+    print(s3.intersection(s4))
+    >>> {33, 22}
 
->>> 判断两个集合有没有交集,有返回true 无返回false
-print(s3)
-print(s4)
-print(s3.isdisjoint(s4))
->>> False 怎么是false 这不是有交集吗
+    >>> 判断两个集合有没有交集,有返回true 无返回false
+    print(s3)
+    print(s4)
+    print(s3.isdisjoint(s4))
+    >>> False 怎么是false 这不是有交集吗
 
->>> 并集
-print(s3.union(s4))
->>> {33, 22, 11, 44}
+    >>> 并集
+    print(s3.union(s4))
+    >>> {33, 22, 11, 44}
 
->>> update 批量更新
-li = [21, 4, 2, 312]
-s3.update(li)
-print(s3)
->>> {33, 2, 4, 11, 21, 22, 312}
+    >>> update 批量更新
+    li = [21, 4, 2, 312]
+    s3.update(li)
+    print(s3)
+  >>> {33, 2, 4, 11, 21, 22, 312}
 
 ## 基本替换
 
