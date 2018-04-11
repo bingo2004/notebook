@@ -1,3 +1,21 @@
+## instance method VS class method VS static method
+
+
+		class MyClass:
+				def method(self):
+						return 'instance method called', self
+
+				@classmethod
+				def classmethod(cls):
+						return 'class method called', cls
+
+				@staticmethod
+				def staticmethod():
+						return 'static method called'
+
+
+[参考文献] (https://realpython.com/instance-class-and-static-methods-demystified/)
+
 ## set基本使用
 
 set类是在python的sets模块中，现在使用的python2.3中，不需要导入sets模块可以直接创建集合。
