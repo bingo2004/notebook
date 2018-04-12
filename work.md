@@ -14,7 +14,7 @@
 						return 'static method called'
 
 
-[参考文献] (https://realpython.com/instance-class-and-static-methods-demystified/)
+[参考文献](https://realpython.com/instance-class-and-static-methods-demystified/)
 
 ## set基本使用
 
