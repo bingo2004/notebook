@@ -8,7 +8,8 @@
 * [Python]
 * [1 python中的下划线](#python中的下划线)
 * [2 set基本使用](# set基本使用)
-* [3 rename](# rename)
+* [3 基本替换](# 基本替换)
+* [4 rename](# rename)
 
 
 
