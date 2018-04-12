@@ -3,7 +3,7 @@
 * [自动启动ss](#自动启动ss)
 * [SSH连接远程服务器](#SSH连接远程服务器)
 * [tar压缩与解压缩](#tar压缩与解压缩)
-* [安装 Privoxy](#安装 Privoxy)
+* [安装Privoxy](#安装Privoxy)
 
 
 
@@ -51,7 +51,7 @@ shadowsocks.json文件放在/etc目录下
     tar -czf file.tar.gz *.jpg
     tar -xzf file.tar
     
-## 安装 Privoxy
+## 安装Privoxy
 
     sudo apt-get install privoxy -y
 
