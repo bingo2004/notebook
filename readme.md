@@ -5,21 +5,21 @@
 * [2 SSH连接远程服务器](#SSH连接远程服务器)
 * [3 tar压缩与解压缩](#tar压缩与解压缩)
 * [4 安装Privoxy](#安装Privoxy)
-* [5 linux 后台任务，运行，关闭，查看](#linux 后台任务，运行，关闭，查看)
-* [6 linux 多个文件中查找字符串](#linux 多个文件中查找字符串)
-* [7 fortune and fortune-zh](#fortune and fortune-zh)
+* [5 linux 后台任务，运行，关闭，查看](#linux后台任务，运行，关闭，查看)
+* [6 linux 多个文件中查找字符串](#linux多个文件中查找字符串)
+* [7 fortune and fortune-zh](#fortune-and-fortune-zh)
 * [8 vim](#vim)
       * 批量缩进
       * 批量粘贴
       * 基本替换
-* [9 sendmail 的安装与配置](#sendmail 的安装与配置)
+* [9 sendmail 的安装与配置](#sendmail的安装与配置)
 * [10 后台任务和进程查看](#后台任务和进程查看)
 * [11 rename](#rename)
 *
 * [Python]
 * [1 python中的下划线](#python中的下划线)
 * [2 set基本使用](#set基本使用)
-* [3 python 发送邮件（４种）](#python 发送邮件（４种）)
+* [3 python 发送邮件（４种）](#python发送邮件（４种）)
 * [4 time模块](#time模块)
 
 
