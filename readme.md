@@ -1,4 +1,6 @@
+**Table of Content**
 
+* [自动启动ss](#自动启动ss)
 
 # 自动启动ss
 
