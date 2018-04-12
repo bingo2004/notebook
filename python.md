@@ -2,6 +2,19 @@
 
 http://blog.51cto.com/lizhenliang/1875330
 
+## 在vpn中，端口25不通,表现为smtplib.connect卡住
+
+    stmp = smtplib.SMTP("smtp.163.com", 25)
+    smtp.login('','')
+
+    改为：
+
+    stmp = smtplib.SMTP_SSL("smtp.163.com", 465)
+    smtp.login('','')
+
+https://segmentfault.com/q/1010000007661948
+https://stackoverflow.com/questions/6979678/python-smtp-errno-10060
+
 # time模块
 
 time模块是包含各方面对时间操作的函数. 尽管这些常常有效但不是所有方法在任意平台中有效. time用struct_time表示时间
