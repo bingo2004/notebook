@@ -9,9 +9,9 @@
 * [6 linux 多个文件中查找字符串](#linux多个文件中查找字符串)
 * [7 fortune and fortune-zh](#fortune-and-fortune-zh)
 * [8 vim](#vim)
-      * 批量缩进
-      * 批量粘贴
-      * 基本替换
+      *  批量缩进
+      *  批量粘贴
+      *  基本替换
 * [9 sendmail 的安装与配置](#sendmail的安装与配置)
 * [10 后台任务和进程查看](#后台任务和进程查看)
 * [11 rename](#rename)
