@@ -1,9 +1,14 @@
 **Table of Content**
 
-* [自动启动ss](#自动启动ss)
-* [SSH连接远程服务器](#SSH连接远程服务器)
-* [tar压缩与解压缩](#tar压缩与解压缩)
-* [安装Privoxy](#安装Privoxy)
+* [Linux]
+* [1 自动启动ss](#自动启动ss)
+* [2 SSH连接远程服务器](#SSH连接远程服务器)
+* [3 tar压缩与解压缩](#tar压缩与解压缩)
+* [4 安装Privoxy](#安装Privoxy)
+* [Python]
+* [1 python中的下划线](#python中的下划线)
+* [2 set基本使用](# set基本使用)
+* [3 rename](# rename)
 
 
 
@@ -22,8 +27,6 @@ shadowsocks.json文件放在/etc目录下
 <<<<<<< HEAD
 ### 远程连接
 =======
-### 远程连接
->>>>>>> 5c667837daf3e63da11f9939f4427a3a4205fb2b
 
     #!/bin/bash
     ssh -o StrictHostKeyChecking=no root@144.202.41.67
@@ -94,7 +97,7 @@ shadowsocks.json文件放在/etc目录下
 
 
 
-## python 中的 下划线
+## python中的下划线
 
 [参考文献](https://segmentfault.com/a/1190000002611411)
 
