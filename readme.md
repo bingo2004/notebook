@@ -17,10 +17,11 @@
 * [11 rename](#rename)
 *
 * [Python]
-* [1 python中的下划线](#python中的下划线)
+* [1]
 * [2 set基本使用](#set基本使用)
 * [3 python 发送邮件（４种）](#python发送邮件（４种）)
 * [4 time模块](#time模块)
+* [5 python中的下划线](#5-python中的下划线)
 
 
 
@@ -114,11 +115,6 @@ shadowsocks.json文件放在/etc目录下
 
 ------------
 
-## python中的下划线
-
-[参考文献](https://segmentfault.com/a/1190000002611411)
-
----------
 
 ## instance method VS class method VS static method
 
@@ -487,3 +483,29 @@ time模块是包含各方面对时间操作的函数. 尽管这些常常有效�
     time.sleep(secs): 线程推迟指定时间, 以秒为单位.
     time.strftime(format[,t]): 根据参数转换一个sturc_time或元组为字符串.
     time.strptime(string[, format]): 与strftime相反,返回一个struct_time.
+
+--------
+
+# 5 python中的下划线
+
+**单个下划线(_)
+
+1. 解释器中:交互解释器中最后一次执行语句的返回结果
+
+2. 用作被丢弃的名称
+
+3. ？
+
+**单下划线前缀：
+
+名称私有
+
+**双下划线前缀：
+
+python默认改写__spam为_classname__spam,其中classname是当前类名
+
+**前后都带双下划线的名称：
+
+python中的特殊方法名，惯例，确保python中的名称不会与用户自定义的名称冲突。
+
+[参考](https://segmentfault.com/a/1190000002611411)
