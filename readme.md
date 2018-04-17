@@ -55,6 +55,9 @@ shadowsocks.json文件放在/etc目录下
     scp username@servername:/path/filename /path/
     scp -r username@servername:/path/remote_dir /path/local_dir
     
+### 登录水木乱码
+
+    luit -encoding gbk ssh root@***
 ------------
 
 ## tar压缩与解压缩
