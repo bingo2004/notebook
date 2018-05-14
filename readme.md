@@ -533,3 +533,15 @@ python中的闭包从表现形式上定义（解释）为：如果在一个内�
 重点是函数运行后并不会被撤销,就像16题的instance字典一样,当函数运行完后,instance并不被销毁,而是继续留在内存空间里.这个功能类似类里的类变量,只不过迁移到了函数上.
 
 闭包就像个空心球一样,你知道外面和里面,但你不知道中间是什么样.
+
+[flask-mysqldb]
+
+　　错误解决方案：
+
+　　１.检查系统是否安装了libmysqlclient-dev，没有安装的话使用sudo apt-get install libmysqlclient-dev安装
+
+　　２.sudo updatedb，locate mysql_config找到mysql_config的安装目录/usr/bin/mysql_config
+
+　　３.在mysql-python源码包下找到：setup_posix.py 文件，然后找到文件中的 mysql_config.path 将其值改为：/usr/bin/mysql_config,然后 sudo python setup.py install
+
+　　４.重新安装flask-mysqldb　pip install flask-mysqldb　　
